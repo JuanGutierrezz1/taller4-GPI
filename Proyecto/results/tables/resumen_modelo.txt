@@ -1,0 +1,19 @@
+
+Call:
+lm(formula = valor_venda ~ id, data = datos)
+
+Residuals:
+    Min      1Q  Median      3Q     Max 
+-54.806  -8.732  -2.385  16.637  42.143 
+
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 107.4142     6.5438  16.415   <2e-16 ***
+id           -0.3187     0.2233  -1.427     0.16    
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 22.79 on 48 degrees of freedom
+Multiple R-squared:  0.0407,	Adjusted R-squared:  0.02072 
+F-statistic: 2.037 on 1 and 48 DF,  p-value: 0.16
+
