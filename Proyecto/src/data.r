@@ -1,4 +1,5 @@
 # Archivo: proyecto/src/funciones.R
+#probando
 generar_tabla_sintetica <- function(n) {
   set.seed(42)
   df <- data.frame(
